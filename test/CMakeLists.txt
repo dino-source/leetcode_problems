@@ -18,7 +18,11 @@ if (BUILD_TESTING)
         "../src/lc0083_remove_duplicates_from_sorted_list/solution.h"
         "../src/lc0083_remove_duplicates_from_sorted_list/solution.cpp"
         "lc0083_remove_duplicates_from_sorted_list_test.cpp"
-        
+
+        "../src/lc0110_balanced_binary_tree/solution.h"
+        "../src/lc0110_balanced_binary_tree/solution.cpp"
+        "lc0110_balanced_binary_tree_test.cpp"
+
         "../src/lc0136_single_number/solution.h"
         "../src/lc0136_single_number/solution.cpp"
         "lc0136_single_number_test.cpp")
