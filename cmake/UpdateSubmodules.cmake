@@ -1,3 +1,6 @@
+# The idea borrowed from 'Code for yourself' youtube-channel
+# from this video: https://www.youtube.com/watch?v=pxJoVRfpRPE
+
 # Adapted from https://cliutils.gitlab.io/modern-cmake/chapters/projects/submodule.html
 find_package(Git QUIET)
 if(GIT_FOUND)
