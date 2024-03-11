@@ -1,3 +1,8 @@
+// Comment the next line to disable tests for LeetCode problem 35
+#define ENABLE_TESTING_LEETCODE_PROBLEM_35
+
+#ifdef ENABLE_TESTING_LEETCODE_PROBLEM_35
+
 #include <gtest/gtest.h>
 #include "../src/lc0035_search_insert_position/solution.h"
 
@@ -37,3 +42,5 @@ TEST(TestTopic, lc35_search_insert_position_test4) {
 
     EXPECT_EQ(actual_result, expected_result);
 }
+
+#endif // ENABLE_TESTING_LEETCODE_PROBLEM_35

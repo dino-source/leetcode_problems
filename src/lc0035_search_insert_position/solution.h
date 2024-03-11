@@ -4,7 +4,6 @@
 // include here all necessary headers
 #include <vector>
 
-using namespace std;
 
 class Solution {
 public:

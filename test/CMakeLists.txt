@@ -13,7 +13,10 @@ if (BUILD_TESTING)
     set(SOURCES
         "../src/lc0035_search_insert_position/solution.h"
         "../src/lc0035_search_insert_position/solution.cpp"
-        "lc0035_search_insert_position_test.cpp")
+        "../src/lc0136_single_number/solution.h"
+        "../src/lc0136_single_number/solution.cpp"
+        "lc0035_search_insert_position_test.cpp"
+        "lc0136_single_number_test.cpp")
 
     add_executable(${test_solution} ${SOURCES})
 
