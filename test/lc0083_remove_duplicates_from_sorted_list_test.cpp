@@ -1,5 +1,5 @@
 // Uncomment the next line to enable tests for LeetCode problem 83
-// #define ENABLE_TESTING_FOR_LEETCODE_PROBLEM_83
+#define ENABLE_TESTING_FOR_LEETCODE_PROBLEM_83
 
 #ifdef ENABLE_TESTING_FOR_LEETCODE_PROBLEM_83
 
@@ -24,6 +24,10 @@ TEST(TestTopic, lc83_remove_duplicates_from_sorted_list_test1) {
         int expected_result {expected[index++]};
         EXPECT_EQ(actual_result, expected_result);
     }
+
+    delete rear;
+    delete next;
+    delete head;
 }
 
 TEST(TestTopic, lc83_remove_duplicates_from_sorted_list_test2) {
@@ -44,6 +48,12 @@ TEST(TestTopic, lc83_remove_duplicates_from_sorted_list_test2) {
         int expected_result {expected[index++]};
         EXPECT_EQ(actual_result, expected_result);
     }
+
+    delete rear;
+    delete fourth;
+    delete third;
+    delete second;
+    delete head;
 }
 
 #endif // ENABLE_TESTING_FOR_LEETCODE_PROBLEM_83
