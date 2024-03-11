@@ -1,7 +1,7 @@
-// Comment the next line to disable tests for LeetCode problem 136
-// #define ENABLE_TESTING_LEETCODE_PROBLEM_136
+// Uncomment the next line to enable tests for LeetCode problem 136
+// #define ENABLE_TESTING_FOR_LEETCODE_PROBLEM_136
 
-#ifdef ENABLE_TESTING_LEETCODE_PROBLEM_136
+#ifdef ENABLE_TESTING_FOR_LEETCODE_PROBLEM_136
 
 #include <gtest/gtest.h>
 #include "../src/lc0136_single_number/solution.h"
@@ -34,4 +34,4 @@ TEST(TestTopic, lc136_single_number_test3) {
     EXPECT_EQ(actual_result, expected_result);
 }
 
-#endif // ENABLE_TESTING_LEETCODE_PROBLEM_136
+#endif // ENABLE_TESTING_FOR_LEETCODE_PROBLEM_136
