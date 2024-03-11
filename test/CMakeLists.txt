@@ -23,6 +23,10 @@ if (BUILD_TESTING)
         "../src/lc0110_balanced_binary_tree/solution.cpp"
         "lc0110_balanced_binary_tree_test.cpp"
 
+        "../src/lc0111_minimum_depth_of_binary_tree/solution.h"
+        "../src/lc0111_minimum_depth_of_binary_tree/solution.cpp"
+        "lc0111_minimum_depth_of_binary_tree_test.cpp"
+
         "../src/lc0136_single_number/solution.h"
         "../src/lc0136_single_number/solution.cpp"
         "lc0136_single_number_test.cpp")
